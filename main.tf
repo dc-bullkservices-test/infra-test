@@ -20,7 +20,7 @@ module "aws-iam-identity-center" {
       user_name        = "dcabrera"
       given_name       = "Damián"
       family_name      = "Cabrera"
-      email            = "dcabrera@aludrey.com"
+      email            = "dcabrera@bullkservices.uy"
       tags             = { ManagedBy = "Terraform" }
     },
   }
