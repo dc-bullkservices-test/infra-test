@@ -5,6 +5,10 @@ module "aws-iam-identity-center" {
   source = "aws-ia/iam-identity-center/aws"
 
 
+  provider "aws" {
+     region = "us-east-1"
+  }
+
   // Create desired GROUPS in IAM Identity Center
   sso_groups = {
     Tecnología-Seguridad : {
