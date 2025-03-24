@@ -4,7 +4,7 @@ provider "aws" {
 
 resource "aws_organizations_account" "new_account" {
   name      = var.nombre_cuenta
-  email     = var.correo_electrónico
+  email     = var.correo_electronico
   role_name = var.rol
   close_on_deletion = true
 
