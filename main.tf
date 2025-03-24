@@ -1,7 +1,3 @@
-provider "aws" {
-  region = "us-east-2" # Change if needed
-}
-
 resource "aws_organizations_account" "new_account" {
   name      = var.nombre_cuenta
   email     = var.correo_electronico
