@@ -1,3 +1,3 @@
-correo_electronico = "ggggg@ivo.cp"
+correo_electronico = "dcabrera@bullkservices.uy"
 nombre_cuenta = "holaa"
-rol = "Administrador"
+rol = "OrganizationAccountAccessRole"
